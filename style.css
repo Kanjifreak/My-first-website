@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-image: url(./images/Background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero {
+    color: white;
+}
+
+.name {
+    font-size: 100px;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+.desc {
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+.kollektif {
+    font-family: 'Kollektif', sans-serif;
+
+}
+
+.primary-btn {
+    transition-duration: 1s;
+
+}
+
+.primary-btn:hover,
+.primary-btn:focus {
+    background-color: #0b6455;
+
+}
+
+.resume {
+    font-size: 1.5rem;
+    background-color: #00C9AF;
+    border: none;
+    color: #fff;
+    border-radius: 0.75rem;
+    margin-top: 10%;
+    padding: 1rem 2rem
+}
+
+.Skill {
+    background-color: #504538;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.Skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2.5fr;
+    width: 70%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    place-items: center;
+    gap: 20px;
+}
+
+.dm-serif {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.html {
+    background-color: #FFECCC;
+    border-radius: 50%;
+    padding-right: 5rem;
+    z-index: 1;
+
+}
+
+.css {
+    background-color: #FFECCC;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.arduino {
+    background-color: #FFECCC;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.skill-img {
+    height: 75px;
+
+}
+
+.Skills-grid>p {
+    font-size: 1rem;
+    color: #FFECCC;
+}
+.skill-text {
+    font-size: 0.5rem;
+    width: 80%;
+
+}
+.contain {
+    display: flex;
+    justify-content: center;
+    background-color: #FFECCC;
+    color: #7B6F62;
+}
+
+.profile-img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+
+}
+
+.jumbotron {
+    padding-top: 8rem;
+    text-align: center;
+    padding-bottom: 8rem;
+
+}
+
+.jumbotron-heading {
+    padding-top: 2rem;
+    font-size: 50px;
+}
+
+.jumbotron-text {
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #504538;
+    color: #B0A395;
+}
+
+.contact-heading {
+    font-size: 40px;
+}
+
+.contact-text {
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+.contact {
+    padding: 9rem 0;
+}
+
+.socials {
+    background-color: #7B6F62;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0;
+
+}
+
+.socials-img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.socials-link {
+    padding:0  4rem;
+
+}
+
+.socials-link>a {
+    padding-left: 1rem;
+    color: #FFECCC;
+}
+
+.Skill {
+    /* Add any necessary styles for the Skill container */
+}
+
+.Skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for each skill */
+    gap: 20px; /* Adjust gap between items */
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+    background-color: #FFECCC;
+    border-radius: 10px; /* Adjust border radius */
+    padding: 20px; /* Adjust padding */
+    text-align: center; /* Center align text */
+}
+
+.skill-img {
+    height: 75px;
+    /* Add any necessary styles for the images */
+}
+
+.skill-text {
+    font-size: 1rem;
+    color: #333; /* Adjust text color */
+}
+
+
+.Skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for each skill */
+    gap: 20px; /* Adjust gap between items */
+    align-items: flex-start; /* Align items at the start of the flex container */
+    margin:0 4rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+    background-color: #FFECCC;
+    border-radius: 10px; /* Adjust border radius */
+    padding: 20px; /* Adjust padding */
+    text-align: center; /* Center align text */
+    height: 100%; /* Ensure all boxes have the same height */
+    margin-top:4rem;
+}
+
+.skill-img {
+    height: 75px;
+    /* Add any necessary styles for the images */
+}
+
+.skill-text {
+    font-size: 1rem;
+    color: #333; /* Adjust text color */
+}
+
+.skill-text{
+    padding-top: 2rem;
+}
+
+
+@media(max-width:900px) {
+    .skill-text {
+        font-size: 0.5rem;
+        width: 80%;
+
+    }
+
+    /* .Skills-grid {
+        width: 100%;
+        margin: 0 3rem;
+        padding:3rem 0;
+    } */
+    .contact-heading{
+        margin: 0rem 3rem;
+    }
+    .contact-text{
+        margin: 0rem 3rem;
+    }
+    .jumbotron{
+        margin: 0rem 3rem;
+    }
+    .socials{
+        padding: 2rem 0;
+    }
+
+    .Skills-grid{
+        position: relative;
+        top: 15rem;
+        margin:0 rem;
+    }
+}
